@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="insideOverlay"
+    android:visibility="visible"
+    android:background="@drawable/a2"
+    tools:context=".dl">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/dl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="Duplicate Licence"
+            android:textSize="26sp"/>
+
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/dl"
+            android:text="\t\t\tA duplicate driving licence will be issued in the following circumstances\n
+\n\t > When the licence is lost or destroyed
+\n\t > When the licence is defaced or torn or completely written up
+\n\t > When the photograph affixed to the licence requires replacement"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView1"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Requirements" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/textView2"
+            android:text="\n\t > Application in Form - LLD
+\n\t > Original licence written or defaced if available.
+\n\t > Attested photocopies of DL if available in case of loss of licence.
+\n\t > Fees as prescribed along with user charges\n"
+            android:textSize="15dp"/>
+    </RelativeLayout>
+
+</ScrollView>

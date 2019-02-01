@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="insideOverlay"
+    android:visibility="visible"
+    android:background="@drawable/a2"
+    tools:context=".rrc">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/rrc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="Renewal Of RC"
+            android:textSize="26sp"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rrc"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="About" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/textView1"
+            android:text="\t\t\tEvery registration certificate is required to be renewed not more than 60 days before the date of its expiry of the registration for its continuous use.
+"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Guidelines" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/textView3"
+            android:text="\n\t -> Apply for renewal of certificate of registration in Form 25 to the Registering Authority in whose jurisdiction the vehicle is, not more than 60 days before the date of its expiry
+\n\t -> Pay the due taxes on vehicle, if any
+\n\t -> Pay appropriate fee as specified in Rule 81 of the Central Motor Vehicle Rules 1989
+"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Documents required" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/textView5"
+            android:text="\n\t -> Application in Form 25
+\n\t -> Pollution under control certificate
+\n\t -> R.C.Book*
+\n\t -> Fitness certificate*
+\n\t -> Certificate of registration*
+\n\t -> Proof for the payment of up-to-date road tax paid*
+\n\t -> Insurance certificate*
+\n\t -> Copy of PAN card or Form 60 and Form 61 (as applicable)*
+\n\t -> Chassis and Engine Pencil Print*
+\n\t -> Signature Identification of owner*"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView6"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Reference" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/textView7"
+            android:text="\n\t -> The Motor Vehicles Act 1988 (Section 41 of Chapter IV)
+\n\t -> The Central Motor Vehicles Rules 1989 (Rule 52)
+\n\t -> State transport official websites
+\n\nDocuments marked with asterisk (*) may be required in some states.\n\n"
+            android:textSize="15dp"/>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
+

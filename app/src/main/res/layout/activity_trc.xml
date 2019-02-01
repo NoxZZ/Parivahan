@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="insideOverlay"
+    android:visibility="visible"
+    android:background="@drawable/a2"
+    tools:context=".trc">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/trc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="Temporary Registration"
+            android:textSize="26sp"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/trc"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="About" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/textView1"
+            android:text="\t\t\tA temporary registration number is assigned by the dealership from which the vehicle is purchased which serves the purpose when the vehicle is brand new and is yet to be permanently registered. This unique number is normally valid for a period of maximum one month, in which the vehicle should be registered by the concerned Regional Transport Office (RTO) authority."
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Guidelines" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView3"
+            android:text="For temporary registration"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/textView4"
+            android:text="\n\t > Apply for temporary registration of a motor vehicle in Form 20 to the Registering Authority in whose jurisdiction the vehicle is or to the dealer dealing in the sale of New Motor Vehicles Recognised by the Transport Commissioner
+\n\t > Provide copies of Sale Certificate, Insurance Certificate and Road worthiness Certificate
+\n\t > Pay tax and fee as specified in Central Motor Vehicle Rules 1989 for temporary registration
+"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView5"
+            android:text="For extension of temporary registration"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/textView6"
+            android:text="\n\t >  You can apply for the extension of the period of temporary registration to the Registering Authority by specifying the reason and period up to which the extension is required.
+\n\t > You can apply for the extension of the temporary registration for maximum two times.
+\n\t > In case you have already applied for extension once and are again applying for extension, you will have to pay the penalty as per Central Motor Vehicle Rules 1989.
+\n\t > Pay fee and tax for extension as specified in in Rule 81 of Central Motor Vehicle Rules 1989"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView7"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Documents required" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView8"
+            android:text="For temporary registration"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/textView9"
+            android:text="\n
+\t > Application in Form 20
+\n
+\t > Sales certificate in Form 21
+\n
+\t > Road worthiness certificate in Form 22
+\n
+\t > Valid insurance certificate
+\n
+\t > Proof of address (Ration card, Electricity bill etc.)*
+\n
+\t > Pollution under control certificate*
+\n
+\t > Copy of PAN card of Form 60 and Form 61 (as applicable)*"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView10"
+            android:text="For extension of temporary registration"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/textView11"
+            android:text="\n\t > Sales certificate in Form 21
+\n\t > Road worthiness certificate in Form 22 from the manufacturers (Form 22A from the Body builder)
+\n\t > Pollution under control certificate
+\n\t > Valid insurance certificate
+\n\t > Proof of address (Ration card, Electricity bill etc.)
+\n\t > Design approval copy of STA in case Trailer or Semi-Trailer
+\n\t > Original sales certificate from the concerned authorities in Form 21 in case of ex-army vehicle"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView12"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Reference" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/textView13"
+            android:text="\n\t > The Motor Vehicles Act 1988 (Section 43 of Chapter IV)
+\n\t > The Central Motor Vehicles Rules 1989 (Rule 47)
+\n\t > State transport official websites
+\n\t > Documents marked with asterisk (*) may be required in some states.\n\n"
+            android:textSize="15dp"/>
+
+    </RelativeLayout>
+</ScrollView>

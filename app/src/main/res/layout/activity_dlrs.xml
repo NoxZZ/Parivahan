@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a2"
+    tools:context=".dlrs">
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="271dp"
+        android:layout_height="46dp"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="215dp"
+        android:entries="@array/States"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="127dp"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="308dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="-197dp"
+        android:layout_marginTop="135dp"
+        android:layout_toStartOf="@+id/button"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:text="Please select the State from where the service is to be taken" />
+</RelativeLayout>

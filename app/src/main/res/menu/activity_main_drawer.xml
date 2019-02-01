@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+
+
+    <item android:title="Online Services">
+        <menu>
+            <item
+                android:id="@+id/vl"
+                android:icon="@drawable/vl"
+                android:title="Vahan LogIn" />
+            <item
+                android:id="@+id/dlrs"
+                android:icon="@drawable/dlrs"
+                android:title="Driving License Related Services" />
+
+            <item
+                android:id="@+id/cnbs"
+                android:icon="@drawable/cnbs"
+                android:title="Choice Number Booking Services" />
+
+            <item
+                android:id="@+id/smt"
+                android:icon="@drawable/mt"
+                android:title="Mock Test" />
+
+        </menu>
+    </item>
+
+    <item android:title="License Informational Services">
+        <menu>
+            <item
+                android:id="@+id/ll"
+                android:icon="@drawable/ll"
+                android:title="Learner's License" />
+            <item
+                android:id="@+id/pl"
+                android:icon="@drawable/ll"
+                android:title="Permanent License" />
+
+            <item
+                android:id="@+id/rol"
+                android:icon="@drawable/ll"
+                android:title="Renewal of License" />
+
+            <item
+                android:id="@+id/dl"
+                android:icon="@drawable/ll"
+                android:title="Duplicate License" />
+
+            <item
+                android:id="@+id/faus"
+                android:icon="@drawable/faus"
+                android:title="Fees and User Charges" />
+
+        </menu>
+    </item>
+
+    <item android:title="Registration Informational Services">
+        <menu>
+            <item
+                android:id="@+id/trc"
+                android:icon="@drawable/trc"
+                android:title="Temporary RC" />
+            <item
+                android:id="@+id/prc"
+                android:icon="@drawable/trc"
+                android:title="Permanent RC" />
+
+            <item
+                android:id="@+id/rrc"
+                android:icon="@drawable/trc"
+                android:title="Renewal RC" />
+            <item
+                android:id="@+id/drc"
+                android:icon="@drawable/trc"
+                android:title="Duplicate RC" />
+
+            <item
+                android:id="@+id/ac"
+                android:icon="@drawable/ac"
+                android:title="Address Change" />
+
+        </menu>
+    </item>
+
+
+</menu>

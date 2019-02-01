@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="insideOverlay"
+    android:visibility="visible"
+    android:background="@drawable/a2"
+    tools:context=".prc">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/prc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="PERMANENT REGISTRATION"
+            android:textSize="26sp"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prc"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="About" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/textView1"
+            android:text="\t\t\tAs per CMVR, the vehicle can be driven or allowed to be driven in public place only after registration by registering authority as under the provision of section 39 of motor vehicle Act 1988. An application for registration of a motor vehicle is required to be made to the registering authority within a period of seven days from the date of taking delivery of such vehicle, excluding the period of journey."
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Guidelines" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/textView3"
+            android:text="\t\t\t\n\t -> Apply for permanent registration of a motor vehicle in Form 20 to the Registering Authority in whose jurisdiction the vehicle is
+\n\t -> If the vehicle has been temporarily registered then apply before the temporary registration expires
+\n\t -> Confirm whether the registration involves hypothecation in which case refer Hypothecation
+\n\t -> Confirm the type of registration number (Fancy number/Choice number/General number).
+\n\t -> Confirm about the usage requirement of HSRP/smart card
+\n\t -> Pay appropriate fee as specified in Rule 81 of Central Motor Vehicle Rules 1989 depending on the choice of registration number and use of HSRP/smart card
+\n\t -> Pay Tax as per Central Motor Vehicle Rules 1989 depending on the choice of registration number and use of HSRP/smart card"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Documents required" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/textView5"
+            android:text="\n\t -> Application in Form 20
+\n\t -> Sales certificate in Form 21
+\n\t -> Road worthiness certificate in Form 22 from the manufacturers (Form 22A from the Body builder)
+\n\t -> Pollution under control certificate
+\n\t -> Valid insurance certificate
+\n\t -> Proof of address (Ration card, Electricity bill etc.)
+\n\t -> Design approval copy of STA in case Trailer or Semi-Trailer
+\n\t -> Original sales certificate from the concerned authorities in Form 21 in the case of ex-army vehicle
+\n\t -> Custom's clearance certificate along with licence, and bond in case of imported vehicle
+\n\t -> Temporary registration, if any
+\n\t -> Form 34 (in case of HP endorsement)
+\n\t -> Copy of PAN card of Form 60 and Form 61 (as applicable)*
+\n\t -> Permit proceedings in case of transport vehicle*
+\n\t -> Municipal Corporation parking fee*
+\n\t -> Dealer and manufacturer invoice*
+\n\t -> Passport size photographs*
+\n\t -> Proof of Date of Birth*
+\n\t -> Chassis and Engine Pencil Print*
+\n\t -> Form CMV Form 22A in case of Body built vehicle (EX. Goods vehicle, bus etc.)*
+\n\t -> Bonafide agriculture certificate issued by Tehsildar in case of registration of tractor-trailer unit used for agriculture*
+\n\t -> Form-A under Taxation Act, 1997*"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView6"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Reference" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_below="@+id/textView7"
+            android:text="\n\t -> The Motor Vehicles Act 1988 (Section 41 of Chapter IV)
+\n\t -> The Central Motor Vehicles Rules 1989 (Rule 47)
+\n\t -> State transport official websites
+\n\nDocuments marked with asterisk (*) may be required in some states.\n\n"
+            android:textSize="15dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

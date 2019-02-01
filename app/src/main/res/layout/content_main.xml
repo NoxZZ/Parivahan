@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/p2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView2"
+        android:padding="20dp"
+        android:text="Transport Mission Mode Project - through its flagship applications vahan (for Vehicle Registration) and Sarathi (Driving License)- has achieved 100% automation of 1300+ RTOs all across the country. Almost 23 crore Vehicle records and 11 crore License records are available in its repository."
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/i1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="15dp"
+        android:background="@null"
+        app:srcCompat="@drawable/announcementicon"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <ImageButton
+        android:id="@+id/i2"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/i1"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        app:srcCompat="@drawable/dashboard"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <ImageButton
+        android:id="@+id/i3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/i1"
+        android:layout_marginEnd="15dp"
+        android:background="@null"
+        app:srcCompat="@drawable/upcomingevents"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/i1"
+        android:layout_below="@+id/i2"
+        android:text="Announcement" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:text="Dashboard" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/i2"
+        android:paddingRight="5dp"
+        android:text="Upcoming events" />
+
+</RelativeLayout>
