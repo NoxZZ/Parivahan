@@ -1,7 +1,7 @@
 # Parivahan
 Android Application for online RTO services.
 
-# Methodology
+# Overview
 This application provides a way to book an appointment for Learner's, Permanent, etc. all sorts of license through an android application.
 
 User can also give a Mock Test which is replica of the actual test conducted at RTO centres.
